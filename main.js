@@ -16,14 +16,16 @@ function close(el)
 	el.addClass('is-hidden')
 }
 
-function toggleNav()
+function toggleNav(evt)
 {
+  evt.preventDefault();
 	nav.classList.toggle('is-hidden');
 	overlay.classList.toggle('is-hidden');
 }
 
-function toggleSearch()
-{
+function toggleSearch(evt)
+{ 
+  evt.preventDefault();
 	search.classList.toggle('is-hidden');
 }
 
