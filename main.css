@@ -114,6 +114,7 @@ input:focus {
   line-height: 1;
 }
 .search__input input {
+  padding-right: 40px;
   border: none;
 }
 
