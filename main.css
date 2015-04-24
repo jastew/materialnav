@@ -101,6 +101,7 @@ input:focus {
 }
 
 .search {
+  position: relative;
   overflow: hidden;
   display: block;
   background-color: #fff;
@@ -110,11 +111,13 @@ input:focus {
   float: right;
 }
 .search__input {
+  position: absolute;
+  right: 0;
   overflow: hidden;
   line-height: 1;
 }
 .search__input input {
-  padding-right: 40px;
+  padding-right: 55px;
   border: none;
 }
 
