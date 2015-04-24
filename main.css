@@ -85,6 +85,7 @@ input:focus {
   right: 0;
   left: 0;
   overflow: hidden;
+  line-height: 72px;
   background-color: #FF9800;
   color: #fff;
 }
@@ -107,6 +108,7 @@ input:focus {
 }
 .search__input {
   overflow: hidden;
+  line-height: 1;
 }
 .search__input input {
   border: none;
