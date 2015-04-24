@@ -103,6 +103,8 @@ input:focus {
 .search {
   overflow: hidden;
   display: block;
+  background-color: #fff;
+  color: #999;
 }
 .search__btn {
   float: right;
