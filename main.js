@@ -29,7 +29,7 @@ function toggleSearch(evt)
 	search.classList.toggle('is-hidden');
 }
 
-nav_toggle.addEventListener('click', toggleNav);
-overlay.addEventListener('click', toggleNav);
+nav_toggle.addEventListener('click', toggleNav, false);
+overlay.addEventListener('click', toggleNav, false);
 
-search_toggle.addEventListener('click', toggleSearch);
+search_toggle.addEventListener('click', toggleSearch, false);
