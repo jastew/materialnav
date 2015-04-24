@@ -138,7 +138,7 @@ input:focus {
 }
 .nav.is-hidden {
   transform: translateX(-100%);
-  box-shadow: 0 0 0 #000;
+  display: none;
 }
 
 .overlay {
