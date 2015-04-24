@@ -16,20 +16,18 @@ function close(el)
 	el.addClass('is-hidden')
 }
 
-function toggleNav(evt)
+function toggleNav()
 {
-  evt.preventDefault();
 	nav.classList.toggle('is-hidden');
 	overlay.classList.toggle('is-hidden');
 }
 
-function toggleSearch(evt)
+function toggleSearch()
 { 
-  evt.preventDefault();
 	search.classList.toggle('is-hidden');
 }
 
-nav_toggle.addEventListener('click', toggleNav, false);
-overlay.addEventListener('click', toggleNav, false);
+nav_toggle.addEventListener('click', toggleNav);
+overlay.addEventListener('click', toggleNav);
 
-search_toggle.addEventListener('click', toggleSearch, false);
+search_toggle.addEventListener('click', toggleSearch);
